@@ -27,7 +27,7 @@ In conclusion, the main contributions of this paper can be summarized as follows
 
 ### Step 1: Download the project
 
-First of all, download our project `HIRL_project.zip` from [Github](https://github.com/anonymous-hirl/HIRL/tree/main/project) and unzip the file. The file includes both codes and datasets.
+First of all, download our project from github. These files include both codes and datasets.
 
 ### Step 2: Create the running environment
 
@@ -62,20 +62,6 @@ You can also change the hyper-parameters as you want. The necessary hyper-parame
 
 The performance will be saved in `result` dictionary. The first column is the running time. The second column is the name of models. The third to the fourth columns are metrices `NDCG@10, HR@10` in order.
 
-
-## 5 Hyper-parameters search range
-
-We tune hyper-parameters accordingly, and the common hyper-parameters are presented on the following table.
-
-| Hyper-parameter     | Explanation | Range |
-| ------------------- | ---------------------------------------------------- | ------------------- |
-| embedding_dim   | dimension of profiles      | \{16, 32, 64, 128\}             |
-| hidden_dim1     | dimension of hidden layer1 | \{16, 32, 64, 128\}             |
-| hidden_dim2     | dimension of hidden layer2 | \{16, 32, 64, 128\}             |
-| lr              | learning rate of model     | \{0.001, 0.01, 0.05, 0.1, 0.2\} |
-| batch_size      | batch size of model        | \{64, 128, 256, 512, 1024\}     |
-
-As different base models have different hyper-paramerters to tune, you can view the details in the corresponding model files.
 
 ## Citation
 
