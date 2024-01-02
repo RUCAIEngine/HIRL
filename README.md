@@ -1,4 +1,4 @@
-## Hierarchical Invariant Learning for Domain Generalization Recommendation
+# Hierarchical Invariant Learning for Domain Generalization Recommendation
 
 ## 1 Abstract
 
